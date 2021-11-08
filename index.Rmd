@@ -1,9 +1,37 @@
 --- 
-title: "McGibney Book Title"
-author: "Daniel McGibney"
-date: " "
+title: 'Mcgibney Book'
+author: 'Daniel'
+date: '`r Sys.Date()`'
 site: bookdown::bookdown_site
+output: bookdown::bs4_book
+documentclass: krantz
+monofont: "Source Code Pro"
+monofontoptions: "Scale=0.7"
+bibliography:
+  - geocompr.bib
+  - packages.bib
+biblio-style: apalike
+link-citations: yes
+colorlinks: yes
+graphics: yes
+description: "enter a description"
 ---
 
-# Down the rabbit-hole
 
+```{r}
+# Welcome {-}
+this is a welcome?
+```
+
+```{asis index-22, echo=is_html}
+## Supporting the project {-}
+
+- this is how to do something
+```
+
+
+# Foreword (1st Edition) {-}
+hello
+
+# Preface {-}
+hi
